@@ -15,6 +15,7 @@ interface TrainingModule {
 
 const modules: TrainingModule[] = [
   {
+    icon: <FaDatabase className="w-8 h-8" />,
     title: "Oracle Database Administration",
     description: "Master the fundamentals of Oracle database administration and management",
     topics: [
